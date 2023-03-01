@@ -1,0 +1,105 @@
+body {
+  margin-top: 120px;
+  margin-right: 100px;
+  margin-bottom: 120px;
+  margin-left: 100px;
+  text-align: center;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxo7vycap6izeRSXx3R_NsXFcINqb_00Vcjg&usqp=CAU);
+  background-attachment: fixed;
+  background-size: auto;
+  color: #ccc;
+  font-family: "Barlow";
+  font-size: 20px;
+  min-width: 260px;
+  max-width: 1900px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  font-family: "Cinzel";
+  font-size: 75px;
+}
+
+#main {
+  padding: 50px 40px 30px 40px;
+  background: rgba(20, 19, 19, 0.893);
+  background-size: cover;
+  background-attachment: scroll;
+  min-width: 260px;
+  max-width: 1900px;
+  border-radius: 40px;
+  border: 5px solid white;
+}
+
+h2 {
+  font-family: Montez;
+  padding-bottom: 20px;
+  font-size: 45px;
+}
+#image {
+  transition: all 0.3s ease-in-out;
+  max-width: 37%;
+  height: auto;
+  border-radius: 99%;
+  display: block;
+  margin: auto;
+}
+#image:hover {
+  transform: scale(1.05);
+}
+#img-div {
+  margin: -0.3125em;
+  margin-top: 20px;
+  width: 100%;
+  border: 15px;
+  border-radius: 10px;
+}
+
+#img-caption {
+  font-size: 20px;
+  color: #ccc;
+  padding: 30px;
+}
+#tribute-info {
+  margin: 30px;
+  text-align: justify;
+  font-size: 20px;
+  display: block;
+  color: #ccc;
+}
+
+#quote {
+  padding: 0.3125em 0.3125em 0.3125em 0.3125em;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  background: rgba(17, 34, 51, 0.5);
+  font-family: Playball;
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+#quote:hover {
+  background: rgba(68, 68, 119, 0.4);
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  color: #ccc;
+  font-size: 20px;
+  padding-top: 90px;
+  font-family: Barlow;
+  word-spacing: 5px;
+}
+a {
+  text-decoration: none;
+}
+#links {
+  color: #e89b9b;
+}
